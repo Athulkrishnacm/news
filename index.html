@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Web App</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ... (previous HTML code) ... -->
+<header class="bg-primary text-white p-4">
+    <div class="container">
+        <h1 class="text-center">News Web App</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="search" class="form-control" placeholder="Search channels or keywords...">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="button" id="search-btn">Search</button>
+                <button class="btn btn-secondary" type="button" id="kerala-news-btn">Kerala News</button>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ... (remaining HTML code) ... -->
+
+    <main class="container mt-4">
+        <section id="news-channels">
+            <!-- News channels will be displayed here -->
+        </section>
+        <section id="news-articles">
+            <!-- News articles will be displayed here -->
+        </section>
+        <nav id="pagination" class="mt-4">
+            <!-- Pagination buttons will be displayed here -->
+        </nav>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+        <!-- Add footer content here -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
